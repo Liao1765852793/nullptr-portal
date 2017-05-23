@@ -15,6 +15,7 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+    
     <!-- 包扫描器，扫描@Controller注解 -->
     <context:component-scan base-package="com.nullptr.portal.controller"/>
 
